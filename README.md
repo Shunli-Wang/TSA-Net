@@ -1,5 +1,4 @@
 # Tube Self-Attention Network (TSA-Net)
-===
 
 This repository contains the PyTorch implementation for paper __TSA-Net: Tube Self-Attention Network for Action Quality Assessment__ (ACM MM 2021) 
 <!-- \[[arXiv](https://arxiv.org/abs/2006.07665)\] -->
