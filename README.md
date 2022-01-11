@@ -1,7 +1,12 @@
 # Tube Self-Attention Network (TSA-Net)
 ## Introduction
 This repository contains the PyTorch implementation for paper __TSA-Net: Tube Self-Attention Network for Action Quality Assessment__ (ACM-MM'21 Oral) 
-<!-- \[[arXiv](https://arxiv.org/abs/2006.07665)\] -->
+
+\[[arXiv](???)\]
+\[[supp](https://drive.google.com/file/d/1JeAgMqOwnoxStbmAd6sQLg9SCrrSxRkZ/view?usp=sharing)\]
+\[[slides](https://drive.google.com/file/d/1l5mgKpINXCwxKR5jwgjCtNlFC2tsbRZ_/view?usp=sharing)\]
+\[[poster](https://drive.google.com/file/d/1DVWinfSI4OQwHwXpDTqOk4cWR7Pa5g7n/view?usp=sharing)\]
+\[[video](https://youtu.be/WdAVw1r-fno)\]
 
 <img src="https://github.com/Shunli-Wang/TSA-Net/blob/main/fig/TSA-Net.jpg"/>
 
@@ -58,5 +63,5 @@ Download links:
 Our code is adapted from [MUSDL](https://github.com/nzl-thu/MUSDL). We are very grateful for their wonderful implementation and selfless contributions.
 
 ## Contact
-If you have any questions about our work, please contact <slwang19@fudan.edu.cn>
+If you have any questions about our work, please contact <slwang19@fudan.edu.cn>.
 
