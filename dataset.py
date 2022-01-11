@@ -79,17 +79,19 @@ class VideoDataset(Dataset):
 
         # Padding frames
         image_list, box = image_list, copy.deepcopy(self.boxes)[key]
-        tmp_a, tmp_b = box[0][6], box[0][7]  # swap the first frame (boxes fix the first frame)
+        tmp_a, tmp_b = box[0][6], box[0][7]
         box[0][6], box[0][7] = box[0][4], box[0][5]
         box[0][4], box[0][5] = tmp_a, tmp_b
         box_h = box
 
         # Temporal augmentation
         if self.mode == 'train':
+            # Due to the strong fitting ability of I3D network, the performance of TSA-Net and Plain-Net cannot be compared after using data augmentation
+            # , so we turn off data augmentation here.
             temporal_aug_shift = 0 # random.randint(0, self.args.temporal_aug)  # adding: 0~6 [6-wo aug]
             sample_range += temporal_aug_shift
             # padding init frames for 6:
-            for i in range(self.args.temporal_aug):  #
+            for i in range(self.args.temporal_aug):  # 
                 image_list = [image_list[0]] + image_list
                 box_h = [box_h[0]] + box_h  # fill to 109
             box_h = box_h[temporal_aug_shift: 103 + temporal_aug_shift]  # cut to 103
@@ -97,9 +99,11 @@ class VideoDataset(Dataset):
 
         # Spatial augmentation
         if self.mode == 'train':
-            hori_flip = False
+            # Due to the strong fitting ability of I3D network, the performance of TSA-Net and Plain-Net cannot be compared after using data augmentation
+            # , so we turn off data augmentation here.
+            hori_flip = False  
             if hori_flip:  # flip the x-xl
-                box[:, 0], box[:, 2], box[:, 4], box[:, 6] = W_img - box[:, 0], W_img - box[:, 2], W_img - box[:, 4], W_img - box[:, 6]
+                pass
 
         # load images
         images = torch.zeros(num_frames, C, H, W)
