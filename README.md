@@ -20,7 +20,6 @@ If this repository is helpful to you, please star it. If you find our work usefu
   numpages={9}
 }
 ```
-
 ## User Guide
 In this repository, we open source the code of TSA-Net on FR-FS dataset. The initialization process is as follows:
 ```bash
