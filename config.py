@@ -48,10 +48,14 @@ def get_parser():
 
 # conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
+
+# PyYAML==6.0
+# tensorboardX==2.4
+
+# scipy==1.7.3
+# tqdm==4.62.3
 # opencv-python==4.5.3.56
 # pandas==1.3.5
-# PyYAML==6.0
-# scipy==1.7.3
-# tensorboardX==2.4
-# thop==0.0.31
-# tqdm==4.62.3
+# xlrd
+# tensorboard==2.7.0
+# thop
