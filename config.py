@@ -35,27 +35,8 @@ def get_parser():
 # 第一步：克隆Repo，配置环境
 # 第二步：创建data文件夹，下载pt文件，下载FRFS数据集，添加ln链接，保证格式如下
 
-# scipy 1.7.3
-# pandas
-# xlrd-2.0.1
-# thop
-
 # python train.py --gpu 0 --model_path TSA-USDL --TSA
 # python test.py --gpu 0 --pt_w TSA-USDL --TSA
 
 # python train.py --gpu 0 --model_path USDL
 # python test.py --gpu 0 --pt_w USDL 
-
-# conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-
-
-# PyYAML==6.0
-# tensorboardX==2.4
-
-# scipy==1.7.3
-# tqdm==4.62.3
-# opencv-python==4.5.3.56
-# pandas==1.3.5
-# xlrd
-# tensorboard==2.7.0
-# thop

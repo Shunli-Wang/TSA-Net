@@ -31,11 +31,11 @@ cd ./TSA-Net
 # 2.Create conda env
 conda create -n TSA-Net python
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-pip install -r requirments.txt
+pip install -r requirements.txt
 
 # 3.Download pre-trained model and FRFS dataset. All download links are listed as follow.
 # PATH/TO/rgb_i3d_pretrained.pt 
-# PATH/TO/FRFS
+# PATH/TO/FRFS 
 
 # 4.Create data dir
 mkdir ./data && cd ./data
