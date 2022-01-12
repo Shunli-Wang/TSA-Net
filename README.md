@@ -62,10 +62,10 @@ Download links:
 We provide the training and testing code of TSA-Net and Plain-Net. The difference between the two is whether the TSA module exists. This option is controlled by ```--TSA``` item.
 ```bash
 python train.py --gpu 0 --model_path TSA-USDL --TSA
-python test.py --gpu 0 --pt_w TSA-USDL --TSA
+python test.py --gpu 0 --pt_w Exp/TSA-USDL/best.pth --TSA
 
 python train.py --gpu 0 --model_path USDL
-python test.py --gpu 0 --pt_w USDL 
+python test.py --gpu 0 --pt_w Exp/USDL/best.pth
 ```
 
 ## Acknowledgement
