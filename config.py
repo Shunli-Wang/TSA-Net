@@ -46,15 +46,12 @@ def get_parser():
 # python train.py --gpu 0 --model_path USDL
 # python test.py --gpu 0 --pt_w USDL 
 
-# numpy                   1.21.2
-# opencv-python           4.5.3.56
-# pandas                  1.3.5
-# pytz                    2021.3
-# PyYAML                  6.0
-# scipy                   1.7.3
-# tensorboardX            2.4
-# thop                    0.0.31.post2005241907
-# torch                   1.9.1
-# torchaudio              0.9.0a0+a85b239
-# torchvision             0.10.1
-# tqdm                    4.62.3
+# conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
+
+# opencv-python==4.5.3.56
+# pandas==1.3.5
+# PyYAML==6.0
+# scipy==1.7.3
+# tensorboardX==2.4
+# thop==0.0.31
+# tqdm==4.62.3

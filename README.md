@@ -1,7 +1,7 @@
 # Tube Self-Attention Network (TSA-Net)
 This repository contains the PyTorch implementation for paper __TSA-Net: Tube Self-Attention Network for Action Quality Assessment__ (ACM-MM'21 Oral) 
 
-\[[arXiv](???)\]
+\[[arXiv](https://arxiv.org/abs/2201.03746)\]
 \[[supp](https://drive.google.com/file/d/1JeAgMqOwnoxStbmAd6sQLg9SCrrSxRkZ/view?usp=sharing)\]
 \[[slides](https://drive.google.com/file/d/1l5mgKpINXCwxKR5jwgjCtNlFC2tsbRZ_/view?usp=sharing)\]
 \[[poster](https://drive.google.com/file/d/1DVWinfSI4OQwHwXpDTqOk4cWR7Pa5g7n/view?usp=sharing)\]
@@ -30,6 +30,7 @@ cd ./TSA-Net
 
 # 2.Create conda env
 conda create -n TSA-Net python
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 pip install -r requirments.txt
 
 # 3.Download pre-trained model and FRFS dataset. All download links are listed as follow.
@@ -55,7 +56,7 @@ After initialization, please check the data structure:
 Download links:
 - __FRFS Dataset__: You can download the FRFS dataset (About 2.5 G) from [BaiduNetDisk](https://pan.baidu.com/s/1Nkl6FlM2PcvbofegNjCIGA) \[star\] or [Google Drive](https://drive.google.com/file/d/1wmMUtMx5eqOFMa8vtM_pA6S9Psxwq3_l/view?usp=sharing)
 - __rgb_i3d_pretrained.pt__: I3D backbone pretrained on Kinetics ([BaiduNetDisk](https://pan.baidu.com/s/1L1MqzlTDFtbOKLYm1b1GpQ ) \[i3dm\] or [Google Drive](https://drive.google.com/file/d/1M_4hN-beZpa-eiYCvIE7hsORjF18LEYU)) is used in our work, which is referenced from [Gated-Spatio-Temporal-Energy-Graph](https://github.com/yaohungt/Gated-Spatio-Temporal-Energy-Graph).
-- __boxes_for_AQA-7_and_MTL-AQA__: Due to the ongoing work, we are sorry that we can't share the source code of MTL-AQA and AQA-7. We provide the original tracking boxes of AQA and MTL-AQA at [BaiduNetDisk](https://pan.baidu.com/s/17dp0BgrlggS0z0qEzRjeUg) [6v51] or [Google Drive](https://drive.google.com/file/d/1owqR9kpjBCuEAQHahXhYWmE0-0MXCfQX/view?usp=sharing).
+- __Tracking boxes for AQA-7 & MTL-AQA__: Due to the ongoing work, we are sorry that we can't share the source code of MTL-AQA and AQA-7. We provide the original tracking boxes of AQA and MTL-AQA at [BaiduNetDisk](https://pan.baidu.com/s/17dp0BgrlggS0z0qEzRjeUg) [6v51] or [Google Drive](https://drive.google.com/file/d/1owqR9kpjBCuEAQHahXhYWmE0-0MXCfQX/view?usp=sharing).
 
 ## Training & Evaluation
 
