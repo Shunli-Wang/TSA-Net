@@ -1,0 +1,51 @@
+.header {
+    background-color: var(--color_blue);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    width: 100%;
+    height: 180px;
+}
+
+.headermain {
+    width: 400px;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.profilepic {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: -32px;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.affiliation {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.menuentry {
+    font-weight: 400;
+}

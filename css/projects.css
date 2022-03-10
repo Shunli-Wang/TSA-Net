@@ -1,0 +1,13 @@
+.project {
+    margin-bottom: 32px;
+}
+
+.projectbox {
+    font-size: 12px;
+    color: var(--color_gray);
+    margin-top: 14px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    display: inline-block;
+}
