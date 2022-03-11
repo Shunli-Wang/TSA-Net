@@ -23,7 +23,7 @@
 .name {
     font-size: 28px;
     font-weight: 400;
-    margin-top: 5px;
+    margin-top: 4px;
 }
 
 .affiliation {
@@ -35,8 +35,16 @@
     font-size: 14px;
     font-weight: 400;
     font-style: italic;
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.pages {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .menu {
