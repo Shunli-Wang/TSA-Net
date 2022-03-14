@@ -6,6 +6,7 @@ This repository contains the PyTorch implementation for paper __TSA-Net: Tube Se
 \[[slides](https://drive.google.com/file/d/1l5mgKpINXCwxKR5jwgjCtNlFC2tsbRZ_/view?usp=sharing)\]
 \[[poster](https://drive.google.com/file/d/1DVWinfSI4OQwHwXpDTqOk4cWR7Pa5g7n/view?usp=sharing)\]
 \[[video](https://youtu.be/WdAVw1r-fno)\]
+\[[BibTex](https://shunli-wang.github.io/publications/bibtex/slwang_TSA-Net.bib)\]
 
 <img src="https://github.com/Shunli-Wang/TSA-Net/blob/main/fig/TSA-Net.jpg"/>
 
