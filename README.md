@@ -2,9 +2,9 @@
 This repository contains the PyTorch implementation for paper __TSA-Net: Tube Self-Attention Network for Action Quality Assessment__ (ACM-MM'21 Oral) 
 
 \[[arXiv](https://arxiv.org/abs/2201.03746)\]
-\[[supp](https://drive.google.com/file/d/1JeAgMqOwnoxStbmAd6sQLg9SCrrSxRkZ/view?usp=sharing)\]
-\[[slides](https://drive.google.com/file/d/1l5mgKpINXCwxKR5jwgjCtNlFC2tsbRZ_/view?usp=sharing)\]
-\[[poster](https://drive.google.com/file/d/1DVWinfSI4OQwHwXpDTqOk4cWR7Pa5g7n/view?usp=sharing)\]
+\[[supp](https://shunli-wang.github.io/publications/pdf/slwang_TSA-Net_supp.pdf)\]
+\[[slides](https://shunli-wang.github.io/publications/pdf/slwang_TSA-Net_slides.pdf)\]
+\[[poster](https://shunli-wang.github.io/publications/pdf/slwang_TSA-Net_Poster.pdf)\]
 \[[video](https://youtu.be/WdAVw1r-fno)\]
 \[[BibTex](https://shunli-wang.github.io/publications/bibtex/slwang_TSA-Net.bib)\]
 
