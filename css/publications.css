@@ -1,5 +1,19 @@
 .publication {
-    margin-bottom: 32px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) 1 1;
+}
+
+.challenge {
+    margin-bottom: 10px;
+    padding-bottom: 66px;
+    border-width: 0px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) 1 1;
 }
 
 .pubtitle {
@@ -29,13 +43,19 @@
     display: none
 }
 
-.pubimg {
+.faceimg {
     float: left;
     width: 96px;
     height: 78px;
 }
 
+.pubimg {
+    float: left;
+    width: 150px;
+    height: 120px;
+}
+
 .thumbnail {
-    width: 78px;
-    height: 78px;
+    width: 120px;
+    height: 120px;
 }
