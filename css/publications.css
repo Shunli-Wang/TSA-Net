@@ -1,6 +1,6 @@
 .publication {
     margin-bottom: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     border-width: 0px;
     border-bottom: 1px;
     border-style: solid;
@@ -21,18 +21,18 @@
 }
 
 .pubauthors {
-    margin-top: 14px;
+    margin-top: 8px;
 }
 
 .pubinfo {
     font-style: italic;
-    margin-top: 14px;
+    margin-top: 8px;
 }
 
 .pubbox {
     font-size: 12px;
     color: var(--color_gray);
-    margin-top: 14px;
+    margin-top: 8px;
     border-style: solid;
     border-width: 1px;
     padding: 3px;
@@ -58,4 +58,44 @@
 .thumbnail {
     width: 120px;
     height: 120px;
+}
+
+/*  */
+
+.papers_co_work {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-width: 0px;
+    border-bottom: 1px;
+    /* border-style: solid; */
+    /* border-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) 1 1; */
+}
+
+.co_pubtitle {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.co_pubauthors {
+    margin-top: 14px;
+    margin-top: 15px;
+    margin-bottom: -8px;
+}
+
+.co_pubinfo {
+    font-style: italic;
+    margin-top: 14px;
+    margin-top: 15px;
+    margin-bottom: -2px;
+}
+
+.co_pubbox {
+    font-size: 12px;
+    color: var(--color_gray);
+    margin-top: 15px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    display: inline-block;
 }
